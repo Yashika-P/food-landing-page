@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+body{
+    all: unset;
+}
+.qwigley-regular {
+    font-family: "Qwigley", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.color-primary-light {
+    color: rgba(255, 179, 14, 1) !important;
+}
+ 
+.color-primary-dark {
+     color: rgba(241, 114, 40, 1) !important;
+}
+.color-white {
+    color: #fff !important;
+}
+.bg-primary-light {
+    background: rgba(255, 179, 14, 1) !important;
+}
+
+.bg-primary-dark {
+    background: rgba(241, 114, 40, 1) !important;
+}
+
+.bg-primary-subtle {
+          background-color: rgba(241, 114, 40, 0.1) !important;
+}
+.bg-gray{
+    background: rgba(128, 128, 128, 0.188) !important;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    margin: 0;
+    font-size: 4rem;
+}
+
+
+.location {
+    font-weight: bolder;
+}
+
+.btn {
+     background: none;
+     border: 2px solid black;
+     border-radius: 5px;
+     padding: 0.5em 1em;
+     font-size: large;
+     font-weight: bolder;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-color: rgba(255, 179, 14, 1);
+    padding: 0.7em 1em;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45v;
+    opacity: 0.85;
+}
+
+.brand-text {
+    color: #fff;
+    font-size: 5em;
+    margin: unset;
+}
+
+.option-menu {
+    width: 45vw;
+}
+
+.options {
+    display: flex;
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 1.5em;
+    align-items: center;
+    gap: 10px;
+}
+.option {
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.location-input {
+    background-color: #fff;
+    display: flex;
+    padding: 0.4rem;
+    gap: 10px;
+    align-items: center;
+    input[type="text"]{
+        flex-grow: 1;
+    }
+}
+.banner-img {
+    transform: scale(0.75);
+}
+.border-none {
+    border: none;
+}
+.gap {
+    display: flex;
+    gap: 10px;
+}
+.find-btn {
+    font-size: 0.75em !important;
+    font-weight: normal !important;
+    padding: .5em 1em;
+}
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 5rem;
+    gap: 1em;
+    font-family: "Source Sans 3", sans-serif;
+}
+ .card {
+    width: 17.5vw;
+    
+      img{
+        width: 100%;
+      }
+      span {
+        padding: 5px 10px;
+        font-weight: bolder;
+        border-radius: 10px;
+      }
+ }
+ .container-3 {
+    font-family: "Source Sans 3", sans-serif;
+     display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+ }
+ .wrapper {
+     display: flex;
+    flex-flow: row nowrap;
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: 0px 5px 27px 11px #FFB5151A;
+       hr {
+           margin: 2rem;
+      }
+ }
+ .deal-card {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+ }
+ .deal-icon {
+     height: 75%;
+ }
+ .deal-title {
+    background: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    background-clip: text;
+    color: transparent;
+}

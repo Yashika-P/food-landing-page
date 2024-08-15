@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+.qwigley-regular {
+    font-family: "Qwigley", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.color-primary-light {
+    color: rgba(255, 179, 14, 1);
+}
+ 
+.color-primary-dark {
+     color: rgba(241, 114, 40, 1);
+}
+
+.bg-primary-light {
+    background: rgba(255, 179, 14, 1);
+}
+
+.bg-primary-dark {
+    background: rgba(241, 114, 40, 1);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    margin: 0;
+    font-size: 4rem;
+}
+
+
+.location {
+    font-weight: bolder;
+}
+
+.btn {
+     background: none;
+     border: 2px solid black;
+     border-radius: 5px;
+     font-size: large;
+     font-weight: bolder;
+}
+
+.login-btn {
+    padding: 0.7em 1em;
+    border-color: rgba(255, 179, 14, 1);
+    
+}
+
+.btn-group {
+   align-items: center;
+   display: flex;
+   gap: 0.5em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+
+}
+
+.brand-text {
+   color: #fff;
+   font-size: 6em;
+   margin: unset;
+}
+.option-menu {
+    width: 45vw;   
+}
+.options {
+    background-color: #fff;
+}
+
+.banner-img {
+   transform: scale(0.65);
+
+}
